@@ -23,10 +23,9 @@ jobs:
         id: get-target
         env:
           INPUT_TARGET: ${{ github.event.inputs.target }}
-          GITHUB_REF: ${{ github.ref }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
         run: |
-          TARGET="${INPUT_TARGET:-$GITHUB_REF}"
-          TARGET="${TARGET##*/}"
+          TARGET="${INPUT_TARGET:-$GITHUB_REF_NAME}"
           if [ "$TARGET" = "main" ]; then
             TARGET="stable"
           fi
