@@ -17,20 +17,6 @@ RUN dnf install -y \
     kf6-rpm-macros \
     fedpkg \
     rpkg \
-    cmake \
-    extra-cmake-modules \
-    git \
-    gstreamer1-plugin-libav \
-    kf6-rpm-macros \
-    libplasma-devel \
-    lz4-devel \
-    mpv-libs-devel \
-    plasma-workspace-devel \
-    python3-websockets \
-    qt6-qtbase-private-devel \
-    qt6-qtwebchannel-devel \
-    qt6-qtwebsockets-devel \
-    vulkan-loader-devel \
     && dnf clean all
 
 WORKDIR /workspace
