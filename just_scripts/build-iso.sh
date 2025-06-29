@@ -130,8 +130,8 @@ ${container_mgr} run --rm --privileged  \
     ARCH="x86_64" \
     ENABLE_CACHE_DNF="false" \
     ENABLE_CACHE_SKOPEO="false" \
-    ENABLE_FLATPAK_DEPENDENCIES="false" \
-    ENROLLMENT_PASSWORD="ublue-os" \
+    ENABLE_FLATDEPENDENCIES="false" \
+    ENROLLMENT_PASSWORD="universalblue" ujust enroll-secure-boot-key
     EXTRA_BOOT_PARAMS="${extra_boot_params}" \
     FLATPAK_REMOTE_REFS_DIR="${flatpak_dir_shortname}" \
     IMAGE_NAME="${tag}" \
