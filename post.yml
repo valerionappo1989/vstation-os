@@ -1,0 +1,2 @@
+post:
+  - plymouth-set-default-theme -R vstation-minimal
