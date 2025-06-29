@@ -1,0 +1,9 @@
+██    ██ ██ ████████  ██████   ██████  ███████ ████████ 
+██    ██ ██    ██    ██       ██    ██ ██         ██    
+██    ██ ██    ██    ██   ███ ██    ██ █████      ██    
+ ██  ██  ██    ██    ██    ██ ██    ██ ██         ██    
+  ████   ██    ██     ██████   ██████  ███████    ██    
+
+Welcome to V Station OS  
+Handcrafted by Valerio. Built for players.  
+Inspired by power, precision, and play.
