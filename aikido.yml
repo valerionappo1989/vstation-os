@@ -4,16 +4,16 @@ base-image: bazzite-steamdeck
 customizations:
   hostname: vstation
   files:
-  - source: files/plymouth/vstation-minimal/splash.png
-    destination: /usr/share/plymouth/themes/vstation-minimal/splash.png
-  - source: files/plymouth/vstation-minimal/vstation-minimal.plymouth
-    destination: /usr/share/plymouth/themes/vstation-minimal/vstation-minimal.plymouth
-  - source: files/plymouth/vstation-minimal/vstation-minimal.script
-    destination: /usr/share/plymouth/themes/vstation-minimal/vstation-minimal.script
-  - source: files/splash.png
-  - source: files/wallpaper.png
-    destination: /usr/share/backgrounds/vstation-wallpaper.png
-    destination: /usr/share/plymouth/themes/vstation/splash.png
+    - source: files/plymouth/vstation-minimal/splash.png
+      destination: /usr/share/plymouth/themes/vstation-minimal/splash.png
+    - source: files/plymouth/vstation-minimal/vstation-minimal.plymouth
+      destination: /usr/share/plymouth/themes/vstation-minimal/vstation-minimal.plymouth
+    - source: files/plymouth/vstation-minimal/vstation-minimal.script
+      destination: /usr/share/plymouth/themes/vstation-minimal/vstation-minimal.script
+    - source: files/splash.png
+      destination: /usr/share/plymouth/themes/vstation/splash.png
+    - source: files/wallpaper.png
+      destination: /usr/share/backgrounds/vstation-wallpaper.png
   packages:
     install:
       - steam
