@@ -1,0 +1,7 @@
+wallpaper_image = Image("splash.png");
+wallpaper_sprite = Sprite(wallpaper_image);
+wallpaper_sprite.SetZ(-100);
+wallpaper_sprite.SetPosition(
+  ScreenWidth / 2 - wallpaper_image.GetWidth() / 2,
+  ScreenHeight / 2 - wallpaper_image.GetHeight() / 2
+);
