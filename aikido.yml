@@ -10,8 +10,8 @@ customizations:
     destination: /usr/share/plymouth/themes/vstation-minimal/vstation-minimal.plymouth
   - source: files/plymouth/vstation-minimal/vstation-minimal.script
     destination: /usr/share/plymouth/themes/vstation-minimal/vstation-minimal.script
-    - source: files/splash.png
-    - source: files/wallpaper.png
+  - source: files/splash.png
+  - source: files/wallpaper.png
     destination: /usr/share/backgrounds/vstation-wallpaper.png
     destination: /usr/share/plymouth/themes/vstation/splash.png
   packages:
