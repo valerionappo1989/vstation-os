@@ -5,7 +5,9 @@ customizations:
   hostname: vstation
   files:
     - source: files/splash.png
-      destination: /usr/share/plymouth/themes/vstation/splash.png
+    - source: files/wallpaper.png
+    destination: /usr/share/backgrounds/vstation-wallpaper.png
+    destination: /usr/share/plymouth/themes/vstation/splash.png
   packages:
     install:
       - steam
