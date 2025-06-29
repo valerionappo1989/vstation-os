@@ -1,0 +1,23 @@
+name: vstation-os
+description: "V Station OS – Founder Flame Edition"
+base-image: bazzite-steamdeck
+
+packages:
+  install:
+    - steam
+    - gamemode
+    - mangohud
+    - dolphin-emu
+    - retroarch
+  remove:
+    - firefox
+
+flatpaks:
+  install:
+    - org.libretro.RetroArch
+    - com.heroicgameslauncher.hgl
+
+branding:
+  theme: dark
+  icon-set: papirus-dark
+  boot-logo: vstation
