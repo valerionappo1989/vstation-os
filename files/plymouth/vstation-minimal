@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=V Station Minimal
-Description=Minimal splash screen with centered V logo
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/vstation-minimal
-ScriptFile=/usr/share/plymouth/themes/vstation-minimal/vstation-minimal.script
